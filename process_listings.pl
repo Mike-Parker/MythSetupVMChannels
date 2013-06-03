@@ -28,8 +28,8 @@ my $grabber                  = $config->{Paths}{grabber};
 my $xmltv_config             = $config->{Paths}{xmltv_config};
 my $unmatched_VM_chanlist    = $config->{Paths}{unmatched_VM_chanlist};
 my $unmatched_XMLTV_chanlist = $config->{Paths}{unmatched_XMLTV_chanlist};
-my $username                 = $config->{Auth}{username};
-my $password                 = $config->{Auth}{password};
+my $username                 = $config->{MythWebAuth}{username};
+my $password                 = $config->{MythWebAuth}{password};
 
 my @VMchannels = parse_VM_channels($infile);
 
